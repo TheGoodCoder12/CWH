@@ -1,3 +1,4 @@
+
 .bckgrd{
     background-color: blue;
     height: 60vh;
@@ -11,4 +12,19 @@
     width: 70px;
     background-color: red;
     border-radius: 75px;   
+    animation: projectile1 5s linear 1.5s 1;
+}
+@keyframes projectile1{
+    25%{
+        transform: translate3d(200px, -200px, 0);
+    }
+    50%{
+        transform: translate3d(400px, 0px, 0);
+    }
+    75%{
+        transform: translate3d(500px, -150px, 0);
+    }
+    100%{
+        transform: translate3d(600px, 0px,0);
+    }
 }
