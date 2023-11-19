@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bgimg{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.bgimg img{
+    height: 100vh;
+    width: 100vw;
+    object-fit: fill;
+    object-position: center center;
+    overflow: hidden;
+    opacity: 0.85;
+    
+}
