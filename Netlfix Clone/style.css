@@ -14,18 +14,19 @@
 .main .box{
     height: 120vh;
     width: 100%;
-    opacity: 0.44;
+    opacity: 0.69;
     background-color: black;
     position: absolute;
     top: 0;
 }
 nav{
-    max-width: 60vw;
+    max-width: 100%;
     margin: 0;
     justify-content: space-between;
     display: flex;
     align-items: center;
-    height: 62px;
+    height: 72px;
+    padding: 45px;
 }
 nav img{
     color: red;
@@ -38,7 +39,7 @@ nav button{
     z-index: 10;
 }
 .hero{
-    height: 80%;
+    height: calc(80%-62px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,6 +50,9 @@ nav button{
     font-size: 38px;
     font-weight: bold;
     margin-bottom: 25px;
+    gap: 23px;
+    padding: 0 30px;
+    text-align: center;
     .special{
         font-size: 12px;
         padding: 0;
@@ -67,4 +71,56 @@ nav button{
     border: solid white 2px;
     font-size: 12px;
     padding: 2px 20px;
+}
+/* span{
+    padding: 70px;
+} */
+.flex{
+    padding: 8px;
+}
+.flex button{
+    border: 1px solid white;
+    margin: 15px;
+    width: 7vw;
+    height: 8vh;
+    background-color: transparent;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 2px;
+    gap: 23px;
+}
+.hero> :nth-child(1){
+    font-weight: bolder;
+    font-size: 48px;
+}
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+}
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+}
+body{
+    background-color: black;
+}
+.separation{
+    height: 7%;
+    background-color: rgb(99, 98, 98);
+}
+.btn{
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: white;
+}
+.btn-red{
+    background-color: red;
+    padding: 3px 24px;
+    color: white;
+    font-size: 20px;
+    border-radius: 4px;
+}
+.btn-red-sn{
+    background-color: red;
+    color: white;
 }
